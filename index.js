@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/urlgenerate', urlgenerate); 
-app.use('/:shortUrl', shortUrl); 
+app.use('/', shortUrl); 
 
 
 const PORT = process.env.PORT || 3000;
