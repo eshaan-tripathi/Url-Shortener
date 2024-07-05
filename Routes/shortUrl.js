@@ -1,8 +1,9 @@
+// Routes/shortUrl.js
 const express = require('express');
 const router = express.Router();
 const Url = require('../Models/url'); // Ensure correct path
 
-router.get('/', async (req, res) => {
+router.get('/:shortUrl', async (req, res) => {
     try {
         const shortUrl = req.params.shortUrl;
         const url = await Url.findOne({ shortUrl: shortUrl });
