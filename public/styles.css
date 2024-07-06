@@ -13,21 +13,21 @@ body {
 }
 
 h1 {
-  font-size: 4vw; /* Adjusted for better responsiveness */
+  font-size: 4vw; 
   color: #ffffff;
   animation: fadeIn 1.5s ease-in-out;
   margin-top: -10vh;
 }
 
 h3 {
-  font-size: 2vw; /* Adjusted for better responsiveness */
+  font-size: 2vw; 
   margin-bottom: 10vh;
   color: #d1e8ff;
 }
 
 form {
   margin: 20px auto;
-  width: 80vw; /* Adjusted for better responsiveness */
+  width: 80vw; 
   max-width: 300px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -38,14 +38,14 @@ form {
 
 input[type="text"] {
   width: 100%;
-  padding: 1.5vh; /* Adjusted for better responsiveness */
+  padding: 1.5vh; 
   margin-bottom: 10px;
   border: 1px solid #ffffff;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   box-sizing: border-box;
-  font-size: 1vw; /* Adjusted for better responsiveness */
+  font-size: 1vw; 
   transition: background 0.3s ease-in-out;
 }
 
@@ -60,13 +60,13 @@ input[type="text"]:focus {
 
 input[type="submit"] {
   width: 100%;
-  padding: 1.5vh; /* Adjusted for better responsiveness */
+  padding: 1.5vh; 
   background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1vw; /* Adjusted for better responsiveness */
+  font-size: 1vw; 
   transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
@@ -87,7 +87,7 @@ a:hover {
 }
 
 p {
-  font-size: 2vw; /* Adjusted for better responsiveness */
+  font-size: 2vw; 
   margin: 20px 0;
   animation: fadeIn 1.5s ease-in-out;
   color: #d1e8ff;
