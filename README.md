@@ -5,14 +5,19 @@ A simple and efficient URL shortener built with Node.js, Express, MongoDB, and s
 Features
 
 URL Shortening: Convert long URLs into short, manageable links using shortid for unique ID generation.
+
 Redirection: Automatically redirect users to the original URL when they visit the short URL.
+
 Responsive Design: Ensures the application looks great on all screen sizes.
+
 Professional Look: Styled with modern CSS, including animations and font styles.
+
 Error Handling: Displays user-friendly error messages.
 
 Environment Configuration: Easy configuration using .env file.
 
 Technologies Used
+
 Frontend:
 HTML
 CSS (responsive design, animations)
