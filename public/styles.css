@@ -13,23 +13,23 @@ body {
 }
 
 h1 {
-  font-size: 4vw; 
+  font-size: 5vw; /* Smaller size for better responsiveness */
   color: #ffffff;
   animation: fadeIn 1.5s ease-in-out;
-  margin-top: -10vh;
+  margin: 0;
 }
 
 h3 {
-  font-size: 2vw; 
-  margin-bottom: 10vh;
+  font-size: 3vw; /* Smaller size for better responsiveness */
+  margin-bottom: 5vh;
   color: #d1e8ff;
 }
 
 form {
   margin: 20px auto;
-  width: 80vw; 
+  width: 60vw; /* Adjusted for better responsiveness */
   max-width: 300px;
-  padding: 20px;
+  padding: 3vw;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -38,14 +38,14 @@ form {
 
 input[type="text"] {
   width: 100%;
-  padding: 1.5vh; 
+  padding: 1.5vh; /* Adjusted for better responsiveness */
   margin-bottom: 10px;
   border: 1px solid #ffffff;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   box-sizing: border-box;
-  font-size: 1vw; 
+  font-size: 2.5vw; /* Smaller size for better responsiveness */
   transition: background 0.3s ease-in-out;
 }
 
@@ -60,13 +60,13 @@ input[type="text"]:focus {
 
 input[type="submit"] {
   width: 100%;
-  padding: 1.5vh; 
+  padding: 1.5vh; /* Adjusted for better responsiveness */
   background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1vw; 
+  font-size: 2.5vw; /* Smaller size for better responsiveness */
   transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
@@ -80,6 +80,7 @@ a {
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
+  font-size: 2.5vw; /* Smaller size for better responsiveness */
 }
 
 a:hover {
@@ -87,7 +88,7 @@ a:hover {
 }
 
 p {
-  font-size: 2vw; 
+  font-size: 3vw; /* Smaller size for better responsiveness */
   margin: 20px 0;
   animation: fadeIn 1.5s ease-in-out;
   color: #d1e8ff;
@@ -112,6 +113,35 @@ p {
     opacity: 1;
   }
 }
-a{
-  font-size: 2vw;
+
+@media (max-width: 700px) {
+  h1 {
+    font-size: 11vw; /* Adjusted for smaller screens */
+  }
+  
+  h3 {
+    font-size: 4vw; /* Adjusted for smaller screens */
+  }
+  
+  form {
+    width: 80vw; /* Adjusted for smaller screens */
+    padding: 4vw; /* Adjusted for better responsiveness */
+  }
+  
+  input[type="text"] {
+    font-size: 3vw; /* Adjusted for smaller screens */
+  }
+  
+  input[type="submit"] {
+    font-size: 3vw; /* Adjusted for smaller screens */
+  }
+
+  p {
+    font-weight: 9vw; /* Adjusted for smaller screens */
+  }
+
+  a{
+    font-weight: 7vw;/* Adjusted for smaller screens */
+  }
 }
+
