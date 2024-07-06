@@ -1,5 +1,3 @@
-/* styles.css */
-
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;
   background: linear-gradient(135deg, #1e3c72, #2a5298);
@@ -15,21 +13,22 @@ body {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 4vw; /* Adjusted for better responsiveness */
   color: #ffffff;
   animation: fadeIn 1.5s ease-in-out;
-  margin-top: -150px;
+  margin-top: -10vh;
 }
 
 h3 {
-  font-size: 1.5em;
-  margin-bottom: 20px;
+  font-size: 2vw; /* Adjusted for better responsiveness */
+  margin-bottom: 10vh;
   color: #d1e8ff;
 }
 
 form {
   margin: 20px auto;
-  width: 300px;
+  width: 80vw; /* Adjusted for better responsiveness */
+  max-width: 300px;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
@@ -39,14 +38,14 @@ form {
 
 input[type="text"] {
   width: 100%;
-  padding: 10px;
+  padding: 1.5vh; /* Adjusted for better responsiveness */
   margin-bottom: 10px;
   border: 1px solid #ffffff;
   border-radius: 5px;
   background: rgba(255, 255, 255, 0.2);
   color: #ffffff;
   box-sizing: border-box;
-  font-size: 1em;
+  font-size: 1vw; /* Adjusted for better responsiveness */
   transition: background 0.3s ease-in-out;
 }
 
@@ -61,13 +60,13 @@ input[type="text"]:focus {
 
 input[type="submit"] {
   width: 100%;
-  padding: 10px;
+  padding: 1.5vh; /* Adjusted for better responsiveness */
   background-color: #4caf50;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 1vw; /* Adjusted for better responsiveness */
   transition: background-color 0.3s ease-in-out, transform 0.2s;
 }
 
@@ -88,7 +87,7 @@ a:hover {
 }
 
 p {
-  font-size: 1.2em;
+  font-size: 2vw; /* Adjusted for better responsiveness */
   margin: 20px 0;
   animation: fadeIn 1.5s ease-in-out;
   color: #d1e8ff;
@@ -96,20 +95,23 @@ p {
 
 @keyframes fadeIn {
   from {
-      opacity: 0;
+    opacity: 0;
   }
   to {
-      opacity: 1;
+    opacity: 1;
   }
 }
 
 @keyframes slideIn {
   from {
-      transform: translateY(30px);
-      opacity: 0;
+    transform: translateY(30px);
+    opacity: 0;
   }
   to {
-      transform: translateY(0);
-      opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
   }
+}
+a{
+  font-size: 2vw;
 }
